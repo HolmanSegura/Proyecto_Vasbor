@@ -1,0 +1,36 @@
+﻿.centrar{
+    text-align:center;
+}
+.centrar-pagina{
+    width:300px;
+    height:300px;
+    position:absolute;
+    top:0;
+    bottom:0;
+    left:0;
+    right:0;
+    margin:auto;
+}
+.espacio_boton{
+    margin-top:20px;
+}
+.espacio_cajas {
+    margin-top: 10px;
+}
+.piepagina_posicion {
+    width: auto;
+    height: auto;
+    position: absolute;
+    top: 1200px;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    margin: auto;
+}
+.gridcentrar {
+    top: 1%;
+    left: 50%;
+}
+body{
+    padding-top:50px;
+}

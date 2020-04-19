@@ -1,0 +1,29 @@
+﻿body {
+    margin: 0;
+    padding: 0;
+    background-image: url('../imagenes/Fondo_Registrar.jpg');
+    background-size: cover;
+    font-family: sans-serif;
+}
+.crearbox {
+    top: 1%;
+    left: 25%;
+}
+.crearbox2 {
+    top: 30%;
+    left: 25%;
+}
+.lblnombre, .lblapellido, .lbltelefono, .lblcorreo, .lblusername, .lblpass, .lblidentificacion {
+    font-weight: bold;
+    color: #f00;
+}
+.txtnombre, .txtapellido, .txttelefono, .txtcorreo, .txtusername, .txtpass, .btningresar, .txtidentificacion {
+    border: none;
+    border-bottom: 1px solid #fff;
+    outline: none;
+    height: 22%;
+    color: #fff;
+    font-size: 16px;
+    background-color: transparent;
+}
+

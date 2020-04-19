@@ -1,0 +1,82 @@
+﻿body {
+    margin: 0;
+    padding: 0;
+    background-image: url('../imagenes/c.jpg');
+    background-size: cover;
+    font-family: sans-serif;
+}
+.loginbox{
+    position:absolute;
+    top:50%;
+    left:50%;
+    transform:translate(-50%,-50%);
+    width:350px;
+    height:450px;
+    padding:80px 40px;
+    box-sizing :border-box;
+    background:rgba(0,0,0,0.5);
+
+}
+.user {
+    width: 100px;
+    height: 100px;
+    overflow: hidden;
+    top: calc(-100px/2);
+    left: 38%;
+    position: absolute;
+}
+h2 {
+    height: 40px;
+    padding: 0;
+    margin: 0;
+    text-align: center;
+    color: #f00;
+}
+.lblusername, .lblpass {
+    font-weight: bold;
+    color: #f00;
+}
+.lbl_err {
+    color: #f00;
+}
+.txtusername, .txtpass, .btningresar {
+    width:100%;
+    margin-bottom:20px;
+}
+.txtusername ,.txtpass{
+    border:none;
+    border-bottom:3px solid #fff;
+    outline:none;
+    height:40px;
+    color:#fff;
+    font-size:16px;
+    background-color:transparent;
+}
+.btningresar {
+    font-weight: bold;
+    border: none;
+    outline: none;
+    height: 40px;
+    font-size: 16px;
+    color: #f00;
+    background-color: #fff;
+    cursor: pointer;
+    border-radius: 20px;
+    transition: .3s ease-in-out;
+}
+.btningresar:hover{
+    background-color:#c1bdbd;
+}
+.linkolvido, .linkregistrar {
+    border-radius: 20px;
+    font-size: 16px;
+    font-weight: 700;
+    text-decoration: none;
+    color: #f00;
+}
+.linkolvido:hover {
+        text-decoration:underline;
+    }
+linkregistrar:hover {
+    text-decoration: underline;
+}
